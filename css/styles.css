@@ -557,10 +557,11 @@ li {
   color: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.icon-close:hover {
-  color: #ffff;
+.modal-bt-title:hover> .icon-close, .modal-bt-title:focus> .icon-close
+ {
+  fill: #ffffff;
 }
+
 
 .title-modal {
   text-align: center;

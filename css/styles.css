@@ -65,7 +65,7 @@ li {
   gap: 40px;
 }
 .container {
-  width: 1158px;
+  width: 320px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -181,14 +181,17 @@ li {
 /*----section1---*/
 
 .padding {
-  padding: 120px 0;
+  /*padding: 120px 0;*/
+  padding: 96px 0;
 }
 .wrap {
-  display: flex;
+ /*- display: flex;--*/
+ 
+ flex-wrap: wrap;
   gap: 24px;
 }
 .icon-item {
-  border: 1px solid #8e8f99;
+  /*border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
@@ -196,7 +199,8 @@ li {
   align-items: center;
   justify-content: center;
   background-color: #f4f4fd;
-  margin-bottom: 8px;
+  margin-bottom: 8px;*/
+  display: none;
 }
 .icon-item-content {
   width: 64px;
@@ -706,4 +710,12 @@ li {
 }
 .modal-bt {
 margin: 0 auto;
+}
+
+/*----media---*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  
 }

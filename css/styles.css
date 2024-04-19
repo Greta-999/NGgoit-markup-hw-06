@@ -728,10 +728,10 @@ margin: 0 auto;
     width: 1158px;
   }
   .padding {
-   padding: 120px 156px;
+    padding: 120px 0;
   }
   .wrap {
-    width: 1128;
+    display: flex;
     gap: 24px;
   }
 

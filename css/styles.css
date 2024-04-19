@@ -191,6 +191,7 @@ li {
 }
 .item {
   width: 100%;
+
 }
 .icon-item {
   display: none;
@@ -731,8 +732,8 @@ margin: 0 auto;
     padding: 120px 0;
   }
   .wrap {
-    display: flex;
     gap: 24px;
+  
   }
 
   .icon-item {
@@ -748,7 +749,6 @@ margin: 0 auto;
   }
   .item {
     width: calc((100% - 72px) / 4);
-  
   }
   .name-link {
     font-weight: 500;

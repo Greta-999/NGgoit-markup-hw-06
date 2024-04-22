@@ -107,8 +107,22 @@ li {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+
+@media screen and (min-resolution: 2dppx),
+ (min-resolution: 2dpi),
+ (-webkit-min-device-pixel-ratio: 2) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x.jpg);
+  }
 
 }
+  
+
 .efect-link:hover,
 .efect-link:focus {
   background-color: #404bbf;
@@ -699,6 +713,18 @@ margin: 0 auto;
     ),
     url(../images/Dark-bg1.jpg);
   }
+  @media screen and (min-resolution: 2dppx),
+ (min-resolution: 2dpi),
+ (-webkit-min-device-pixel-ratio: 2) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tb-2x.jpg);
+  }
+
+}
   
   .h-link {
     font-weight: 700;
@@ -810,8 +836,20 @@ margin: 0 auto;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office1.jpg);
+      url(../images/people-office-1x.jpg);
   }
+  @media screen and (min-resolution: 2dppx),
+ (min-resolution: 2dpi),
+ (-webkit-min-device-pixel-ratio: 2) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2x.jpg);
+  }
+
+}
 
 
   .button-link {
